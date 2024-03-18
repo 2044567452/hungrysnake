@@ -10,7 +10,7 @@ int flag=1;
 //void createbarrier();//3.产生障碍物
 void drawmap()//1.画地图
 {
-	//●,¥: 食物   █：蛇身(占用两个字符）
+	//●,+: 食物   █：蛇身(占用两个字符）
 
 srand((unsigned int)time(NULL));//随机病毒出现的位置
 	int i, k;
